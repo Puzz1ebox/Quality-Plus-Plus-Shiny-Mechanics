@@ -1,0 +1,17 @@
+{
+  "name": "Quality-Plus-Plus-Shiny-Mechanics",
+  "version": "0.0.1",
+  "factorio_version": "2.0",
+  "title": "Quality++  |  Shiny Mechanics",
+  "author": "Puzz1ebox",
+  "homepage": "",
+  "license": "MIT",
+  "description": "An expansion to the quality system that adds extremely rare, powerful, intermediate qualities to the game. Shiny qualities contain unique abilities. Does not require Quality++ | Extended Qualities to function.",
+  "quality_required": true,
+  "dependencies": [
+    "base >= 2.0",
+    "quality >= 2.0",
+    "space-age >= 2.0",
+    "? customizable-quality-names"
+  ]
+}
