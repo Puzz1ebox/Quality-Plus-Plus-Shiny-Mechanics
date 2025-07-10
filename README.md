@@ -1,4 +1,5 @@
 #Quality++  |  Shiny Mechanics
+
 An expansion to the quality system that adds extremely rare, powerful, intermittent qualities to the game. Shiny qualities contain unique abilities. Does not require Quality++ | Extended Qualities to function.
 
 It currently adds a variant to each of the qualities included in factorio, with the exception of normal.
