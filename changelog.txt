@@ -7,7 +7,7 @@ Date: 11JUL25
     - Changed the odds for a Shiny event to occur from 1/1000 -> 1/4096.
     - Added all normal power adjustments that a quality would get (from other attributes not affected by level) to the Shiny quality counterparts.
     - All unique abilities remain intact for the specific quality level in question.
-    - Rare: Shiny --- accumulator_capacity_multiplier: 1000 -> 100000. This should be very high.
+    - Rare: Shiny --- accumulator_capacity_multiplier: 1000 -> 125. This should be lower.
     - Rare: Mythical --- tool_durability_multiplier: 1000 -> 125. This should be lower.
     - ---
     - TODO: Find a way to dynamically adjust the Shiny Quality level as you unlock further and further qualities with something like the Milestones mod.
