@@ -1,5 +1,18 @@
+Version: 0.0.2
+Date: 11JUL25
+  Changes:
+    - Executed a balance pass.
+    - Changed all Standard Shiny qualities up to and including Legendary: Shiny to have its level set to 5 (from 21 -> 5).
+    - Changed all Quality++ Shiny qualities to have their level be ever so slightly better than their standard counterparts (from 21 -> q.level + 2).
+    - Changed the odds for a Shiny event to occur from 1/1000 -> 1/4096.
+    - Added all normal power adjustments that a quality would get (from other attributes not affected by level) to the Shiny quality counterparts.
+    - All unique abilities remain intact for the specific quality level in question.
+    - Rare: Shiny --- accumulator_capacity_multiplier: 1000 -> 100000. This should be very high.
+    - Rare: Mythical --- tool_durability_multiplier: 1000 -> 125. This should be lower.
+    - ---
+    - TODO: Find a way to dynamically adjust the Shiny Quality level as you unlock further and further qualities with something like the Milestones mod.
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.1
-Date: 01JUL25
+Date: 10JUL25
   Changes:
     - Release
