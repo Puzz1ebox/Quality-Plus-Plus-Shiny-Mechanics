@@ -4,7 +4,7 @@ Date: 11JUL25
     - Executed a balance pass.
     - Changed all Standard Shiny qualities up to and including Legendary: Shiny to have its level set to 7 (from 21 -> 7).
     - Changed all Quality++ Shiny qualities to have their level be ever so slightly better than their standard counterparts (from 21 -> q.level + 2).
-    - Changed the odds for a Shiny event to occur from 1/1000 -> 1/4096.
+    - Changed the odds for a Shiny event to occur from 1/1000 -> 1/2048.
     - Added all normal power adjustments that a quality would get (from other attributes not affected by level) to the Shiny quality counterparts.
     - All unique abilities remain intact for the specific quality level in question.
     - Rare: Shiny --- accumulator_capacity_multiplier: 1000 -> 125. This should be lower.
