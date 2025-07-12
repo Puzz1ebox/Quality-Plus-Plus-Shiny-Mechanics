@@ -1,6 +1,6 @@
 {
   "name": "Quality-Plus-Plus-Shiny-Mechanics",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "factorio_version": "2.0",
   "title": "Quality++  |  Shiny Mechanics",
   "author": "Puzz1ebox",
@@ -12,6 +12,7 @@
     "base >= 2.0",
     "quality >= 2.0",
     "space-age >= 2.0",
-    "? customizable-quality-names"
+    "? customizable-quality-names",
+    "? Quality-Plus-Plus"
   ]
 }

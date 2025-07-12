@@ -1,3 +1,14 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 12JUL25
+  Changes:
+    - Executed another balance pass.
+    - Changed all Standard Shiny qualities: science_pack_drain_multiplier 95 -> 93 (a very slight buff).
+    - Changed all Quality++ Shiny qualities to have their level be reflective from the balance pass on 12JUN25 (eventually this will be dynamic).
+    - --- All Shiny qualities' levels have been adjusted to be 12 (Artifactual's level was adjusted to be 10).
+    - --- All Shiny qualities' science_pack_drain_multiplier has been set to 88/100 (Buff in some cases, nerf in others).
+    - Code cleanup.
+---------------------------------------------------------------------------------------------------
 Version: 0.0.2
 Date: 11JUL25
   Changes:

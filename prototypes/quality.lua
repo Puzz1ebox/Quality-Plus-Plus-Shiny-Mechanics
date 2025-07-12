@@ -25,7 +25,7 @@ local shiny_std_defs = {
 		mining_drill_resource_drain_multiplier = 0.01, -- Special Shiny Property
 		beacon_power_usage_multiplier = 1/6,
 		-- mining_drill_resource_drain_multiplier = 1/6,
-		science_pack_drain_multiplier = 95/100,
+		science_pack_drain_multiplier = 93/100,
 	},
 	rareShiny = {
 		type = "quality",
@@ -41,7 +41,7 @@ local shiny_std_defs = {
 		accumulator_capacity_multiplier = 125, -- Special Shiny Property
 		beacon_power_usage_multiplier = 1/6,
 		mining_drill_resource_drain_multiplier = 1/6,
-		science_pack_drain_multiplier = 95/100,
+		science_pack_drain_multiplier = 93/100,
 	},
 	epicShiny = {
 		type = "quality",
@@ -58,7 +58,7 @@ local shiny_std_defs = {
 		electric_pole_wire_reach_bonus = 50, -- Special Shiny Property
 		beacon_power_usage_multiplier = 1/6,
 		mining_drill_resource_drain_multiplier = 1/6,
-		science_pack_drain_multiplier = 95/100,
+		science_pack_drain_multiplier = 93/100,
 	},
 	legendaryShiny = {
 		type = "quality",
@@ -74,7 +74,7 @@ local shiny_std_defs = {
 		inserter_speed_multiplier = 1 + 0.6 * 12, -- Special Shiny Property, should be greater than any other inserter speed multiplier among all raries, including Artifactual: Shiny.
 		beacon_power_usage_multiplier = 1/6,
 		mining_drill_resource_drain_multiplier = 1/6,
-		science_pack_drain_multiplier = 95/100,
+		science_pack_drain_multiplier = 93/100,
 	},
 }
 
@@ -94,7 +94,7 @@ if mods["Quality-Plus-Plus"] then
 			type = "quality",
 			name = "mythical-shiny",
 			hidden = true,
-			level = 9,
+			level = 12,
 			order = "z-5",
 			color = {98.8, 75.7, 100, 255},
 			next_probability = 2047/2048,
@@ -103,7 +103,7 @@ if mods["Quality-Plus-Plus"] then
 			tool_durability_multiplier = 125, -- Special Shiny Property
 			beacon_power_usage_multiplier = 1/8,
 			mining_drill_resource_drain_multiplier = 1/8,
-			science_pack_drain_multiplier = 93/100,
+			science_pack_drain_multiplier = 88/100,
 			crafting_machine_energy_usage_multiplier = 2/3,
 		},
 		masterworkShiny = {
@@ -119,14 +119,14 @@ if mods["Quality-Plus-Plus"] then
 			logistic_cell_charging_energy_multiplier = 20, -- Special Shiny Property
 			beacon_power_usage_multiplier = 1/10,
 			mining_drill_resource_drain_multiplier = 1/10,
-			science_pack_drain_multiplier = 90/100,
+			science_pack_drain_multiplier = 88/100,
 			crafting_machine_energy_usage_multiplier = 1/2,
 		},
 		wondrousShiny = {
 			type = "quality",
 			name = "wondrous-shiny",
 			hidden = true,
-			level = 16,
+			level = 12,
 			order = "z-7",
 			color = {32.9, 67.1, 34.5, 255},
 			next_probability = 2047/2048,
@@ -135,14 +135,14 @@ if mods["Quality-Plus-Plus"] then
 			crafting_machine_energy_usage_multiplier = 0.01, -- Special Shiny Property
 			beacon_power_usage_multiplier = 1/12,
 			mining_drill_resource_drain_multiplier = 1/12,
-			science_pack_drain_multiplier = 86/100,
+			science_pack_drain_multiplier = 88/100,
 			-- crafting_machine_energy_usage_multiplier = 1/3,
 		},
 		artifactualShiny = {
 			type = "quality",
 			name = "artifactual-shiny",
 			hidden = true,
-			level = 22,
+			level = 12,
 			order = "z-8",
 			color = {71.4, 85.5, 70.2, 255},
 			next_probability = 2047/2048,
@@ -152,7 +152,7 @@ if mods["Quality-Plus-Plus"] then
 			equipment_grid_height_bonus = 30, -- Special Shiny Property
 			beacon_power_usage_multiplier = 1/20,
 			mining_drill_resource_drain_multiplier = 1/20,
-			science_pack_drain_multiplier = 80/100,
+			science_pack_drain_multiplier = 88/100,
 			crafting_machine_energy_usage_multiplier = 1/4,
 		},
 	}
@@ -179,7 +179,7 @@ if mods["Quality-Plus-Plus"] then
 
 	for idx, q in ipairs(enabled) do
 		local shiny_key = shiny_key_map[q]
-		local def_shiny = shiny_key and table.deepcopy(shiny_mod_defs[shiny_key]) or nil
+		local def_shiny = shiny_key and table.deepcopy(shiny_mod_defs[shiny_key])
 		local def = data.raw.quality[q:gsub("-shiny", "")]
 		local next_q = enabled[idx+1]
 		if def_shiny and def then
