@@ -1,3 +1,11 @@
+Version: 0.0.4
+Date: 18JUL25
+  Changes:
+    - Changed the probability for a shiny event to occur to 511/512.
+    - The math behind this assumes a 12.4% quality. Out of 4096 total different crafts, at this quality --
+    - approx 512 of them will have an upgraded quality. We want exactly one of these (on average) to be shiny.
+    - In total, the math has been changed to be a chance to happen in all quality crafts vs. on upgrade events.
+    - The total effect is that there should be many more shinies, but not too terribly many.
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.3
 Date: 12JUL25
